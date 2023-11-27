@@ -4,7 +4,7 @@
   }
 </style>
 <div class="homepage">
-  <div class="container relative grid grid-cols-2 gap-8 py-20">
+  <div class="container relative grid gap-8 px-4 py-20 md:grid-cols-2">
     <app-gradient [type]="1"></app-gradient>
     @for (card of cards; track $index) {
       <app-card [app]="card"></app-card>
